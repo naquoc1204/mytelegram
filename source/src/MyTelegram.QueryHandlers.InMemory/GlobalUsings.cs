@@ -4,6 +4,7 @@ global using EventFlow.Queries;
 global using EventFlow.ReadStores;
 global using MyTelegram.Domain.Aggregates.Channel;
 global using MyTelegram.Domain.Aggregates.Chat;
+global using MyTelegram.Domain.Aggregates.Blog;
 global using MyTelegram.Domain.Aggregates.Device;
 global using MyTelegram.Domain.Aggregates.Pts;
 global using MyTelegram.Domain.Aggregates.User;

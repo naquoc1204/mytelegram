@@ -44,6 +44,7 @@ public static class MyTelegramReadModelInMemoryExtensions
             .UseMyInMemoryReadStoreFor<PtsReadModel, IPtsReadModelLocator>()
             .UseMyInMemoryReadStoreFor<UserReadModel, IUserReadModelLocator>()
             .UseMyInMemoryReadStoreFor<ChatReadModel>()
+            .UseMyInMemoryReadStoreFor<BlogReadModel>()
             .UseMyInMemoryReadStoreFor<ChannelReadModel, IChannelReadModelLocator>()
             .UseMyInMemoryReadStoreFor<ChannelFullReadModel, IChannelFullReadModelLocator>()
             .UseMyInMemoryReadStoreFor<ChannelMemberReadModel>()

@@ -33,6 +33,7 @@ public static class MyTelegramServerReadModelMongoDbExtensions
                 .UseMongoDbReadModel<PtsReadModel, IPtsReadModelLocator>()
                 .UseMongoDbReadModel<UserReadModel, IUserReadModelLocator>()
                 .UseMongoDbReadModel<ChatReadModel>()
+                .UseMongoDbReadModel<BlogReadModel>()
                 .UseMongoDbReadModel<ChannelReadModel, IChannelReadModelLocator>()
                 .UseMongoDbReadModel<ChannelFullReadModel, IChannelFullReadModelLocator>()
                 .UseMongoDbReadModel<ChannelMemberReadModel>()

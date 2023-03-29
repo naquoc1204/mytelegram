@@ -3,6 +3,7 @@ global using EventFlow.Queries;
 global using MongoDB.Driver;
 global using MyTelegram.Domain.Aggregates.Channel;
 global using MyTelegram.Domain.Aggregates.Chat;
+global using MyTelegram.Domain.Aggregates.Blog;
 global using MyTelegram.Domain.Aggregates.Device;
 global using MyTelegram.Domain.Aggregates.Pts;
 global using MyTelegram.Domain.Aggregates.User;
@@ -16,6 +17,7 @@ global using ChannelMemberReadModel = MyTelegram.ReadModel.MongoDB.ChannelMember
 global using ChannelReadModel = MyTelegram.ReadModel.MongoDB.ChannelReadModel;
 global using ChatInviteReadModel = MyTelegram.ReadModel.MongoDB.ChatInviteReadModel;
 global using ChatReadModel = MyTelegram.ReadModel.MongoDB.ChatReadModel;
+global using BlogReadModel = MyTelegram.ReadModel.MongoDB.BlogReadModel;
 global using DeviceReadModel = MyTelegram.ReadModel.MongoDB.DeviceReadModel;
 global using DialogReadModel = MyTelegram.ReadModel.MongoDB.DialogReadModel;
 global using DraftReadModel = MyTelegram.ReadModel.MongoDB.DraftReadModel;

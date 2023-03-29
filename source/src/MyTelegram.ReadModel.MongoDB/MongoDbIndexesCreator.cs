@@ -69,6 +69,10 @@ public class MongoDbIndexesCreator : MongoDbIndexesCreatorBase
         await CreateIndexAsync<DialogReadModel>(p => p.OwnerId).ConfigureAwait(false);
         await CreateIndexAsync<DialogReadModel>(p => p.Pinned).ConfigureAwait(false);
 
+        await CreateIndexAsync<BlogReadModel>(p => p.BlogId).ConfigureAwait(false);
+        await CreateIndexAsync<BlogReadModel>(p => p.PinnedMsgId).ConfigureAwait(false);
+        await CreateIndexAsync<BlogReadModel>(p => p.CreatorUid).ConfigureAwait(false);
+
         await CreateIndexAsync<MessageReadModel>(p => p.MessageId).ConfigureAwait(false);
         await CreateIndexAsync<MessageReadModel>(p => p.OwnerPeerId).ConfigureAwait(false);
         await CreateIndexAsync<MessageReadModel>(p => p.MessageType).ConfigureAwait(false);

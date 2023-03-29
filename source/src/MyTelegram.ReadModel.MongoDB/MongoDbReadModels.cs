@@ -34,6 +34,11 @@ public class ChatReadModel : Impl.ChatReadModel, IMongoDbReadModel
 }
 
 [BsonIgnoreExtraElements]
+public class BlogReadModel : Impl.BlogReadModel, IMongoDbReadModel
+{
+}
+
+[BsonIgnoreExtraElements]
 public class DeviceReadModel : Impl.DeviceReadModel, IMongoDbReadModel
 {
 }
